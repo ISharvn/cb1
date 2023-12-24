@@ -3,11 +3,11 @@ let hrBox = document.getElementById("hr-box");
 let minBox = document.getElementById("min-box");
 let secBox = document.getElementById("sec-box");
 let endDate = new Date(2024, 0, 1, 00, 00);
-let endTime = endDate.getTime(2023, 7, 8, 10, 20);
+let endTime = endDate.getTime(2023, 7, 8, 5, 00);
 
 function countdown() {
-  let todayDate = new Date();
-  let todayTime = todayDate.getTime();
+  let todayDate = new Date(2023, 24, 11);
+  let todayTime = todayDate.getTime(24, 11, 3.51);
   let remainingTime = endTime - todayTime;
   let oneMin = 60 * 1000;
   let oneHr = 60 * oneMin;
